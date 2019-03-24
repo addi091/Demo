@@ -1,0 +1,35 @@
+1) go to cmd and type
+npm install -g @angular/cli@6.2.8
+
+2)got to google and Download zip file of vscode 64bit, extract and run code.exe
+
+3)Press ctrl + `
+
+4)type
+C:\Windows\System32\cmd.exe /k "C:\Program Files\nodejs\nodevars.bat"
+
+5)type
+ng new MyAngularApp
+
+6)type
+cd MyAngularApp
+
+npm install bootstrap
+generate routing - ng g m app-routing --flat --module=app
+write in agular.json two lines
+7)type
+ng serve
+
+8)after succesfull run open browser and type http://localhost:4200
+
+npm run-script ng serve
+
+
+----------------------------------
+adsinha> ng new my-app --skip-git
+
+>cd my-app
+>ng g c home
+>ng g c about
+>ng g c contact
+>ng serve
